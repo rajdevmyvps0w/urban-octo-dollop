@@ -37,38 +37,40 @@ jobs:
       with:
         bun-version: latest
 
-    - name: 🚀 Ultra-Maximum Storage Reclamation (Absolute Zero)
+    - name: 🚀 Nuclear Storage Optimization (Max Free Space)
       run: |
-        echo "🧹 Targeted Destruction of System Junk..."
+        echo "🧹 Deep Cleaning System Image..."
         
-        # 1. Kill Heavy Pre-installed Frameworks (Android, .NET, Haskell, etc.)
-        sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/share/boost /usr/local/.ghcup /usr/share/swift
+        # 1. Remove massive pre-installed software (Android, .NET, Haskell, CodeQL)
+        sudo rm -rf /usr/local/lib/android
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /opt/ghc
+        sudo rm -rf /usr/local/share/boost
+        sudo rm -rf /opt/hostedtoolcache/CodeQL
+        sudo rm -rf /usr/local/.ghcup
+        sudo rm -rf /usr/share/swift
         
-        # 2. Kill Hosted Tool Cache (Yahan sabse zyada space hoti hai)
-        sudo rm -rf /opt/hostedtoolcache
-        
-        # 3. Kill unused heavy languages & browsers
-        sudo apt-get purge -y "php*" "ruby*" "go*" "google-cloud*" "azure-cli*" "microsoft-edge*" "google-chrome*" "firefox*" "mono-runtime*" "libmono*" || true
+        # 2. Remove heavy languages & tools you don't use
+        sudo apt-get purge -y "php*" "google-cloud*" "azure-cli*" "microsoft-edge*" "google-chrome*" || true
         sudo apt-get autoremove -y
         sudo apt-get clean
         
-        # 4. Nuclear Docker Wipe
+        # 3. Docker system-wide wipe (Free up ~20GB+)
         sudo docker image prune --all --force
         sudo docker system prune --all --force --volumes
         
-        # 5. Clear Library Caches and Manual Bloat
-        sudo rm -rf /usr/local/share/powershell
-        sudo rm -rf /usr/local/lib/node_modules/npm/docs
-        sudo rm -rf /usr/local/lib/node_modules/npm/man
+        # 4. Clear APT cache and Temp logs
+        sudo rm -rf /var/lib/apt/lists/*
+        sudo rm -rf /tmp/*
+        sudo rm -rf /var/log/*
         
-        # 6. Final Log & Temp Purge
-        sudo rm -rf /var/lib/apt/lists/* /tmp/* /var/log/*
+        echo "✅ Cleanup Complete! Freeing up max possible GiB."
         
-        echo "✅ Cleanup Complete! Installing Bot Essentials..."
-        
-        # Re-install ONLY what's needed for the bot
+        # Standard Tool Installation
         sudo apt-get update -qq
         sudo apt-get install -y -qq ffmpeg imagemagick webp jq tmate ttyd btop python3 python3-pip
+        
+        
         
         # --- 📥 YT-DLP + JS RUNTIME FIX ---
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp

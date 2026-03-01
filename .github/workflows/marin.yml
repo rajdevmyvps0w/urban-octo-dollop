@@ -37,34 +37,35 @@ jobs:
       with:
         bun-version: latest
 
-    - name: 🧹 Deep System Cleanup (Max Storage Mode)
+    - name: 🧹 Deep Storage Optimization (Force Free Space)
       run: |
-        echo "🚀 Starting Deep Storage Optimization..."
+        echo "🚀 Starting Ultra Cleanup..."
         
-        # 1. Delete Heavy Toolsets
+        # 1. Delete Massive Pre-installed Toolsets (Android, .NET, etc.)
         sudo rm -rf /usr/share/dotnet
         sudo rm -rf /opt/ghc
         sudo rm -rf /usr/local/share/boost
         sudo rm -rf /usr/local/lib/android
         sudo rm -rf /opt/hostedtoolcache/CodeQL
-        
-        # 2. Advanced Junk Cleaning
-        sudo rm -rf /usr/local/.ghcup
         sudo rm -rf /usr/share/swift
-        sudo rm -rf /usr/local/lib/node_modules/npm/docs
-        sudo rm -rf /usr/local/lib/node_modules/npm/man
         
-        # 3. Docker Optimization
+        # 2. Cleanup Linux Header & Old Packages
+        sudo apt-get purge -y "php*" "google*" "microsoft*" "azure*" || true
+        sudo apt-get autoremove -y
+        sudo apt-get clean
+        
+        # 3. Docker System Deep Clean (Images & Volumes)
         sudo docker image prune --all --force
         sudo docker system prune --all --force --volumes
         
-        # 4. Swap and Temp Cleanup
-        sudo apt-get clean
+        # 4. Remove Temp logs and Cache
         sudo rm -rf /var/lib/apt/lists/*
+        sudo rm -rf /tmp/*
         
-        echo "✅ Cleanup Done! Installing Tools..."
+        echo "✅ System Optimized! Installing Necessary Tools..."
         sudo apt-get update -qq
         sudo apt-get install -y -qq ffmpeg imagemagick webp jq tmate neofetch ttyd btop python3 python3-pip
+        
         
         # --- 📥 YT-DLP + JS RUNTIME FIX ---
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp

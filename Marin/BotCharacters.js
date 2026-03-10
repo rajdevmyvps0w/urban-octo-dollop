@@ -8,7 +8,7 @@ const { mkchar } = require("./Database/dataschema.js");
  1 --- Makima
  2 --- Chika
  3 --- Miku
- 4 --- Atlas MD
+ 4 --- Marin MD
  5 --- Yor
 
 Image Source: https://wall.alphacoders.com/
@@ -62,8 +62,8 @@ global.charID3 = {
 }
 
 global.charID4 = {
-    botName : "Atlas MD",
-    botVideo : fs.readFileSync("./Assets/atlas.mp4"),
+    botName : "Marin MD",
+    botVideo : fs.readFileSync("./Assets/Marin.mp4"),
     botImage1 : "https://i.ibb.co/r2dyh2S/20230213-154752.jpg",
     botImage2 : "https://i.ibb.co/r2dyh2S/20230213-154752.jpg",
     botImage3 : "https://i.ibb.co/r2dyh2S/20230213-154752.jpg",

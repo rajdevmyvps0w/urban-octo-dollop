@@ -150,7 +150,7 @@ https://youtu.be/R-_DU73UH8Q
 <br>
 
 - Read [PublicKeys.md](https://github.com/Sten-X/Marin-Kitagawa-MD/blob/main/PublicKeys.md) to use our `provided public keys` if you are lazy to create your own. We have already provided everying you need to run the bot.
-- Changeable between `6 added Characters` ( Marin Kitagawa MD, Makima MD, Chika MD, Miku MD, Atlas MD, YOR MD) and more can be added by user inside `BotCharacters.js` file. Type `charlist` command to get character list.
+- Changeable between `6 added Characters` ( Marin Kitagawa MD, Makima MD, Chika MD, Miku MD, Marin MD, YOR MD) and more can be added by user inside `BotCharacters.js` file. Type `charlist` command to get character list.
 - Fully powered by MongoDb ( 3 databases added ).
 - Self / Public / Private mode.
 - Single prefix ( "-" ).
@@ -179,7 +179,7 @@ https://youtu.be/R-_DU73UH8Q
 - Marin Kitagawa doesn't store your `Session File` locally which means it's `safe` and `secure`.
 - Marin Kitagawa has `RPG , Economy , Card And Pokemon` which means you can use it as a `RPG Bot` or `Casino Bot or Gaming Bot`.
 - Marin Kitagawa has `User Banning / Group Banning` which means you can use it as a `Anti Spam Bot`.
-- Atlas is a Folder Type bot which represents `Highest Stability`, `Highest Performance` and `Developer / User friendly`.
+- Marin is a Folder Type bot which represents `Highest Stability`, `Highest Performance` and `Developer / User friendly`.
 - Marin Kitagawa comes with [MIT](https://github.com/Sten-X/Marin-Kitagawa-MD/blob/main/LICENSE.md) License which means you can use it as a `base for your own bot` and can `modify it as you want` and can `add your own features`.
 
 <br>
@@ -244,13 +244,13 @@ npm start
 #### 📌 To stop a bot in Userland
 - Tap on `CTRL` button then tap on `C` from keyboard
 
-#### 📌 To start bot again ( While you are inside Atlas-MD folder {use `cd Marin-Kitagawa-MD` to get inside the folder} )
+#### 📌 To start bot again ( While you are inside Marin-MD folder {use `cd Marin-Kitagawa-MD` to get inside the folder} )
 - `npm start` or use `yarn start` to start bot again.
 
 
 #### 📌 Start bot after UserLand session is cleared
 ```
-cd Atlas-MD
+cd Marin-MD
 npm start
 ```
 #### 📌 What to do if you logged out from the WhatsApp linked device section and want to get new qr or code to login
@@ -258,7 +258,7 @@ npm start
 - Then open `UserLand` and run these commands one-by-one:
 
 ```
-cd Atlas-MD
+cd Marin-MD
 git fetch origin
 git merge origin/main
 npm start

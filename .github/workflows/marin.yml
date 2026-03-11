@@ -27,10 +27,10 @@ jobs:
         token: ${{ secrets.PAT_TOKEN }}
         fetch-depth: 0
 
-    - name: 🟢 Setup Node.js 20
+    - name: 🟢 Setup Node.js 22
       uses: actions/setup-node@v3
       with:
-        node-version: '20'
+        node-version: '22'
 
     - name: 🥟 Setup Bun Runtime
       uses: oven-sh/setup-bun@v1

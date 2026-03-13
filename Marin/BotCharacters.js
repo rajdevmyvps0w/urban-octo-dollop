@@ -63,7 +63,7 @@ global.charID3 = {
 
 global.charID4 = {
     botName : "Marin MD",
-    botVideo : fs.readFileSync("./Assets/Marin.mp4"),
+    botVideo : fs.readFileSync("./Assets/marin.mp4"),
     botImage1 : "https://i.ibb.co/r2dyh2S/20230213-154752.jpg",
     botImage2 : "https://i.ibb.co/r2dyh2S/20230213-154752.jpg",
     botImage3 : "https://i.ibb.co/r2dyh2S/20230213-154752.jpg",

@@ -1,6 +1,6 @@
 // lib/ytdl-core.js
 const { spawn } = require("child_process");
-const yts = require("yt-search");
+const yts = require("youtube-yts");
 const NodeID3 = require("node-id3");
 const fs = require("fs");
 const path = require("path");

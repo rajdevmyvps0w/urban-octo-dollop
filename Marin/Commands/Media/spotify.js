@@ -1,5 +1,5 @@
 const SpotifyWebApi = require("spotify-web-api-node");
-const yts = require("youtube-yts");
+const yts = require("yt-search");
 const fs = require("fs");
 const path = require("path");
 const fetch = require("node-fetch");

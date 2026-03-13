@@ -37,7 +37,7 @@ Try using different keywords nya~ ✨`,
         );
       }
 
-      const song = search.videos[0]; //
+      const song = search.videos[0]; // ✅ Moved before usage
 
       let desc = song.description ? song.description.split("\n")[0] : "No description available nya~";
 

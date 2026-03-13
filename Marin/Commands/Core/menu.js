@@ -1,1 +1,380 @@
-function a19_0x2706(){const _0x32bd1=['WPZdTwNcR8k/tYLOW79HWRhdGSkH','WPrDsstdRL9CWQe','WQnHWQGk','AX9EW5ifWRpdPYXvWQS','WR9BWOVdRCoVhG','CSo2W4zcB2bkha','s8kQWR8hWRP0lqr7mGNdKCkc','W7pWLRYMnCour2XsWOZdQ8oiW6NdKsJcQN7cJmoA','lY3dUSkYWOWNjCkdW7NcRq','EuzHW67cUqNdLtJdUa','EuzRW7i','nCopDeOTqcpcJmowbmk2sHjvjmoXErW','r8o9W6ddScRcJSkzgmoVW69spSkwWQlcLhu+DW','WP9gWOVdTmofdSknWPBcOMS','gUkcSokcV/gnKz7WRicd8ygqHpglSzJWVOkt8lQGKpgpKzFXJOkz8ysGQ/giKBvu4Ooa4OcM8loaR/glGyFXHPc08jAWQ/cXSAtWN4kH8lIZUCop4OkR4Oku8jMqOVcOGQpWNAcI8jUZVVcTGOFXHQkQ8kcsVpcWSBdXJkk78jQtKpctS7RWT7cGwokcI+kaMVcRS7BWQ4ks8k+sPpc3OkVWSios8lIqV/c9Ky/cK+kcJokaQ/cCSiZWRlge8ygbGpcASRz64Okl4OcP8kgHHpcxS5/WKAcR8jotOFcuK5xdQokbSEkcJVcxG7pWVlkZ8jkqOpcPOOdWPikW8lEtGpcAO6ZWNRoj8lUGKmo1W7SQWOFdQmkAW7iHWQ1cwW','W68eBXddRNbxWPVcImkzBHtdI8o9gCkTWRNdVa','mcVcH3SOgwlcS0ldHCoAW6xcTCklrNrk','asuQt8oMqq17nx7dNSoAW7W','WRauWQ9OaL7dPW','d/c0UkdcN1NdI1hdLwDrzZXeuCkRwmk/WRyZkLHsxq','bmkBWOrYW7/cLmoMW7jm','vmkAwCkFA8kzn8kg','uhJcOmk4W6lcLfJcVWOWWOjCAq','W4ZdRSkwW6ZcVConnSkfW50','WRFIGj/IGlxXGjkO8jUrJFcUKzlWVPc68yUGHFc5OixWMPciWRdIG4BIGy3WK4c/8ywYPpc5GjZdIUkcUUkbNVcwGQlWORoJ8kkJVpcHG4xWOjkhW7/IG7pIG4tWNBow8jQYQVgbOPVWRRo18kkaMVcWGANWQQk98jkqUVgiSiFWR5koW73IGjdIG6/WOjcF8k+qVpcQOBdWNlkj8jcqGFcMG67WL5oR8l+GOVcMK68w4Ogy4Og68lQWQFcHKAxWM4kI8lQJJCkK4Okp4OgH8lodIVcIGi7WN6oo8jgHS/c3OOJXHQoc8l+JVVgaOlNWN7gOW4xIGPlIGBpWTAot8lsGJVgbK7hWP5oD8jErPFcHSitWL6oJ8l+GHCkj4Ogw4Ok/8ysYLpcNGBRXIBgM8ywIK/cwS7xdMokaJokcGFcUOl3WNAgF8lUZGVc3OlRcIEkaS+kbG/cLGPlWUBot8lwHLpgmGQhcKUkbSUkcSpgjSylWRQcB8ywaJ/c3KilWMkgy8lsXOVcTGkFWNRolWOK4CSoNW7NdS8otW6OOaq','pVcxVytcP8krkCoXeCoisSkNW7y0WRPvW68AEI5XBSkpWQ0m','DUkcOUkaG/cwOlpWLyc08yotIFcHSQlWNkch8jsWO/c5KA7oOrVIG7hIGi7mPFgiKRJWL4gN8ykZMFcGGiDb4Ok+4Okz8y2HIpcVGzNXIicx8ygdLVcRKlRWN6kJ8yEsGgVIG6ZIGQpWVlkH8kkWJFcXK7xWOPoj8j2GJ/ghK7RWOyoO8jkJGFgjKQxWNPc18kAHJqJIGAtIG63WSic48yMWPFgbG4tWN6gw8jYYLCkg4OcA4Oo38k+HMFcLK7ZWN6gl8lkWRVgeOORXIlc78lQGT8oZ4OgL4Ooq8yYaVFcHKR7WSRgR8jUZSm+sW7ZIGPFIGBRXJAk18koaUpcDOBJXJRkw8jsXTCke4Ok/4Ogf8ksZGFcwK7JWK6oR8kcIQCo4WPxIGQ3IGRRWPycl8yIcUpcJK7BXGygYWPBcQ+kdUEkdOVc+Kl/WVlcy8jctUpc3GQFWKkgYWQFcJMBcSwW3WQbMuCkv','sSkKW77cNG','hFgkJ5WFW7BdUZNdUSoXW4RdSsZdHcFcP37cISoNCNNcMhT0W7S','WPNdKudcKNBcJY/dJqtcJG','W5BdT8kfW6lcTSoNoSkqW5FcI8oXeG','sh7dIIDRowhcRuBdM8oC','aSo4WR7dNr/cUSo6WR3dGMhcKqzx','epgfT5JdIepcVXBcVspdScXqW7O4WQmOWPxcQCknqsq','yhHQW7ZdMSkWW7W','WRRIGiJIGQhWSRoe8j+cPVc+OBJWUAkW8yEdTpc1GOhWMloAWRZIGyBIGjZWROoS8kwYLFc5O5BWRicSWQ/IG43IGPlWUjgE8ycJIpcESjFWQOoVw+kcL+kaQpgnGAJXGjop8yQcT/gjGz7WR5oAc+kdMEkdUVcYO5RWVOcM8yIbMSkb4Oc44OcY8kQWIpc/GB/WVOgS8lYqT/c9KOrA4OcT4OgK8kgHHFcJGlRWKAga8lkIOpcYS6lXJ4k68lkITFc9SAZcV+kbNEkbTVcSGQpWQBoR8jMXTpcrO5tWLBgAeokaNokdKFc/OihWQlcV8lcaK/csS7VXIygt8jgYT/c1OP7XGOgvWRpIG6xIG6FWUkg58jscQVcqGAf94OcL4OcB8yUbN/cxGRxWP5kS8yctVNxIGRdIGkZWP5kc8j6YQVgoOQxWTjgwdCoYeSkkaSkJk1NcQuy','WRFIGj/IGlxXGjk38jUrHVcUKzdWVPc+8yUGL/c5OjVWMPck8loYVVcUSyRWQlkoW5lIGPlIGP/XJzoo8kQbM/gpKiZWU7ct8lIqM/c3KjZXGPko8ygsRFcDS5mu4Ooq4OoW8ygGUFc+OiVWOioh8jMWS/gpOzFWRjk68kEGOVgaOOuz4OoV4Og38kAGV/cVGkNWNOg08ysbMpcGKidWUige8lQdP/cROiDL4OcF4Ogy8kodQFcQGiBWMigR8yIJS/c1G4dWVPcs8lodK/cIGiub4Ok44OcW8jQJNpgfSPNWS6o58lIYM/cOKAxWMAkJ8lMaMpc1O5NcREkbOEkdS/c7Sj/WSjgE8jIWGpcMKyFWV4o78kcJTVcOG5hXHlkyy+kaLUkdKFcESPtXH7gy8lYIOpcEO67WRQcW8j2HIFc7S4lWT6c28l2HNpcTKiVXH5oPWQRIGQdIGkhXJikT8lUqH/cXOQdWK4cJ8kEIMpcJO4tWPRgK8jgdIVcyKkNWQAg08lwZRZJIGzhIG4tXI4kK8ygIVpcFKzpWPQom8lYISpcGS6JWROcR8jkGPVctKBNWSAgCWQFIGRNIGPRWP7kB8ykaJpc+K4pWV5gG8lgGJpcsOytWUOgbWPlIGOVIGRpWOQkV8ygJG/geSPJWNRgO8lQISpgoSk/WN7o88lIXHVc0S61U4OcJ4Oom8k6dUFcJOQlWK5kw8kAWTFcyS6RWRRcD8kgrMpcIO53WKRkfWOeqWRtcPSosWQjqa8oaW7O','W5BcRSoZkf9PBa8PWR0KW5THWPBdMsiLxueWlN9XWO4OW7m','vUoaSo+6M8oXW6xcGsxdMCozW51NkdddVCkbW5ySWO0','W7uDCGxdUtfyWORcH8kBjcVdH8oPaSk4W77dRCkpCepdISkznMqoiSoVpCoQkSo0aVcIJOHSWPHtWOhcOKv2W7/cGWxdISkgdSo6W5P2zmkAWQjuWRNcQSkTWP4CW5xdVmk9W4RcM8o9x8kBWOtdQIJdRNb6turvWPKvWQddNI/cHSoXW5m','lmk3WOijlcPhbGWrWRvjp1BdLG','ef1DW6BdPfBcIW','W4SfFWBdSxrAWPO','wokaRUkaO/cZS4RXGjoQ8lgYSpgmSyn54OcC4OkL8k6JRpcyKB3WRzgg8k6HG/cKGyhWLikZDokbLEkbV/ghS5tXJigz8lMYPpcyK6/cPEkcJUkcTpcwKiRWK7oX8lQGQFc0GO3WQlo58jsrQpc3Oz3WUlchWP3IG5/IGyJXI4oL8lobMVc+OlRWMjo18lsYU/cOO4RXGzoOW6vTWP3cLmkhBIddVmovW6u','jCovWPyZWRldICkWW7m','sq3cOhyCgfW','W7FdV8kfW6hcTSoy','tCo8W6BdSa','nMNdTmk8','WPlcGtTkCxFdNZmJiSoEWPhdM29CW7jUW40','fJhdSSoMWRtdJr0','bVgkTR/dK2tdGCoWWP7dUvddTIL3gvy9zHVcPLhcICkQgG','iCowW4HvW5pcICogW6ldJsC7W6ej','oSo8W61FW7OICrjsgGxdT8oAWQZcOCotWQDNuZu','WR/IG7NIGApWQBc+8jEtPVcJGOxXJycrW7hIGAhIGBlWUkc48lwsI/c2K7FWL7cH8lotM/cMSO3WNlg0W73IGz3IGihWNjcK8yccI/cGOORWMBkq8kEXT8kN4OoK4Okq8jkqO/giKR/WN4oJ8yIsG/cCOR7WLjoN8jUHL/cvOROG4Okd4Oo78jgWGpcXG7BWNOk+8yUXQ2ZIGAlIG6hXG4c68lEtKFc9Ol3WSRoC8y6XMpcPOzJWTQgYE+kaQ+kdSVcROzRWSlkd8lAWQpcWGkhWT7om8lAWQVcKK7iT4OoA4Ooa8lAHJFcAGj3WO5gYWPddMSoeB3H5xZRcUmojWPG','udpVUOywW4emxc4AmctdNCk4WO/cJSo+WPGO','WPNdKudcKG','k0G/WPyCWO3dPaXBWRqPW5rHWQFdHh0','W6RdM30AnspdTa86mCotWO8','jwNdOSk9W4VcGSkpAG','sFcJJkKpW4CopdldPMCgjNO0WQpcV8oe','C/czV6hdUrDJW4fGafxcMSoqWOlcM8ouWR/cJCk+W7BdLCknWOddGGG','hZ/cL3SXgudcTLNdN8oYW67cSW','y3f7WOe8W6jYDrtcM8k4oHS','W41kWRPhW6NdHXy','amkgWPLIW6lcNmoTW6K','W7lcLSkXWQbheCoR','kZhdSmoL','WQxdJCkLACkoEwG','yZNcTmoPWPFdKSozsmkSF8kqWRpcKq','W60EWPmMWRa1gxRdNmoPW4/dPSoD','WQZIGANIGjJWOio08jMbN/ggOORXHQg/8kUdMpc+SihdHUkdNEkcMVgfKlVWLloE8yEaQFcFOjdWRkk08kMtO/cSK7xWN5cc8j+rK8oZ4OcG4OkI8ycXHpczORFXJycvWQZIG6RIGBRXI7oK8j2HPFggSQtWK7oX8ykYT8k04Ogm4OkZ8lUdTpc/GPZWUzgA8ycIJ/c6SkFdHokaSokaLVcvKzxWKjkc8kgdQFc5Sk7XGioW8ykbR/gaSABdKEkbLokdSFcLS5pXGzcV8lEsGpcOGO/XGyciqEkdVokcJpgdG5RXJ7kE8yEJK/gcG5VXJQcA8yEbT/csSOSp4OgI4OkB8ywtPpc4G6hWPyoz8lgcN/gpGjdWNkc+8kwqNVc+OOZXGPo1WQJIG6/IGQxWUioS8yYWMVgeOjBWNlgyEEkdMUkbHpcNOkNWMOcK8kcqT/cEGkZWT5oc8yYHS/cGGAmX4Oob4Ogx8joGMpgjKB/XIPk58j+WS/cRG5tWR7g88lgJPFcSSBxXH6cNrSk0dSo/WPFcGdBdOCoex2C','WOpdJLLNE23dJqVcHCkOkq','WPZdT2ZcQmk5tsDAW5TOWQVdSmk0','xCkjWOOeWPFdNSkDW6ZdPtqvW5Ohe39CACkF','W6JIGPtIGkdWK7gz8lEbHpcUKOtXI7oPaokcR+kaOxj4W6JIGR/IGlxWTOg18lUJJFcJKjpWOOgc8ygaRhBIGi3IGlBWRAgp8jkaSpgeSkVXGBcVAEkbI+kcTVc3K5ZWP4kl8k2XG23IGkFIGzVWL5cY8lcbQ/cKGzxWM6kqW7/IGRVIGjlWNjcK8j2GMpcMO6xWKAcH8lMbISku4Oo/4OcA8kkJQpcZSj3WQRci8ywYMVcFGPNXJyge8jMXU/gjSiRXHlcxjokbSEkaOFcXO6FXJBcU8ykXLFcPG4xXHBc48jIrUpcMKz/cO+kaNokdL/cTSihWMBoG8kEsPFctKkRWQicawokdHEkbRFcKKzVWTzcG8lUaPFcuK7/dOEkcUUkcRpc6GAxXHQcI8kQaNFgoGBdWTkkW8yMtJuWtkCk4W5qzW6yPvSkz','W6qfFWW','W7BcP8o7pLvVzKOkWQK','ftiKqCoDsGHWjwC','DFcWQjRdK2SiW7FdSgJcHCk7W6OxWPLcoJGQ','tmoaWQldMg7dO3hdUfPOxr52bCkbEmkCWPyxcMK','AEkbS+kcI/cwO7ZWQRct8jMZKpcxKlLH4Oc44Og58ysIHVggSQ7WS6cn8ksHJpcyORBWT5kt8kwqVVc8OiRdSokaTUkcNpgiSzlWO7kU8locMpc4KPtWTQgWWPtIGBVIGQdXIkkH8jkJV/gnKORWNBgb8kQZNFcXO53WK4cSe+kaNokcRpc8GQNWP5oL8k2qSVc/KPxWQ4ck8y+cPfVIGytIGi7WP7cP8ycsU8ka4Ogh4OkC8jMIM/c+KzVWK6k+W43IG4lIGA/XJyoD8j2rQVcROjpWUich8yotUVgeKzBWQkgb8kcaGSkl4Oo34Oou8k6sTpgoSytWNAcb8ygJT/cIOyhWMyo2xEkaLokcUVgnSRxWLQgM8yQqVpcwKkhWMkoz8jIIRpcGSBBWNBkNF8oYpmoLiSonWRddUJFcUq','WR7XH72i77UcaJldM2xcKCk9W4BcPSk7WQVcK8oxW78LW7hdKW','fc9FWQHO','WRzNWQGhkepdLvddIq','BEkbL+kdQpcBNANWP4o18lgcIpc6OOxXHBoy8jkZKFc0Ki/WK5os8kMHMVcGK5VWP4csoEkdIUkbIFcONR3WTlkA8kobO/c3SllXJjcU8yMWJLJIGzhIG7VWO6YS8yUGJ/cVGOdXI7kI8jAtPFgcG7ZWUBoyl+kdIokaKpcJRP7WOPgy8jwGQVcVK73WL6o38l+ITFcVKlzj4Ocg4OoH8kIJN/cNKBdWR5oP8l+qI8o64OkW4Ooj8kIcPVc6Oj/WPAgv8lYZOpcNKOdWT5oB8lwJGpcxSAlXIRoBqEkdHUkbQ/csS5/WQ6gz8y+qUVcqOQFWTkgxWQxIG4VIGONWMPcv8jQWVVcsGPlWOAkk8yAsPbxIG4hIGAtWSOoi8yYaGpcuGRNXH5op8kwdI2hIG4FIGzNWQOct8lkWN/gjO4RWU6kE8jUdGVgfSOLG4Oou4Oke8lcGRpcQSBtWUjcn8k+WU/gpSR/WNRgZ8lIJU/cZGRxXJyc0CokbREkcU/cGSBlWSRgf8jQXGFcZSOxWTAg18kkbRVcPOy/WQ6ob8jobGgyBWP7cLxFcQrxcMSoJdq','ipcrP5BcOvrMWORdGSk7DLtcQur9EqlcKqHnba','hFgkKPKFW7hdUZpcK8o9WQxdUsxdJd3dG27dRW','W4RcKHNdIW/dM33dKIBcN0Wlxa','B21KW5pdVhxcIW','BSo2W4PiB2rpdbaAWRLaza','AmoHW7VdUbFcJCkqcCoLW60','fIhcGNVdKZBcHmouW7RdS8o7','kSoYW75tW78MF0fycKS','D8kkWPO','kokbVokbS/c9SABWSOgU8j2bHVcCK47WUlchW4FIGytIG7ZWT7k58yYYPpc8O7ZWM5kqwEkdNokdNpc1SjlWURoL8ywtGVc/SBGI4Ok14OgE8lEXIVcvGz7WMBgb8jYIKVc8KQlWSkgj8ywcJFc6OPZdREkdGUkdIFcrSkJWVOgT8lwYMFcGGixXGQgq8yEYRpcLGQXh4Oc34OkU8lAaMFgcO5ZWSikv8yIrOVc1O4RWMQgO8lQJGVc9SRZWQBg18j2HLFcKGiJcSEkcNUkdJpcTSylWN4c28kQJL8om4OgL4OgX8kIsRVcQORJWNPkl8lwWIpcLG4Sk4Ocb4Oc/8l2qPVgpO5VXJiof8kItH/c0Sj7WQignv+kbUUkbQFcMSBRWSzcm8yktS/cIGB/WP6kv8jUaL/c8SANcTSo4WOddJmohW7S5W6ZcPaK','W5TUW5S','vEkcV+kcPFgbOkBWRkkL8lwHJpgmS6BWTkgu8yUqGpcISA/WNzk88lsZT/gjKBRWNigy8jwGTsdIGBJIG5NWOBkA8ycYSFgkOypWPQo98y+ZJ/ghGlZWNzci8loqTVcTKjhWPkkW8lMJIpgkOyZXH7kT8jkJJ8kN4Oog4Oo+8lwGVFcFS4VWSPkY8j+GU/cCO5dXI4cV8jYdS/cQSj/XJBgEW5RIGkNIGOFWLkkU8k6XPFgdSjhWLkoi8ywXHFcSK77WPRkY8kUWO8ka4OgO4Okx8joqM/ghOPZXHBca8yYJKmow4Oo54Oc98k6bJpc/Gy3WOzcA8k+rKFc/Gz0H4OgB4Og/8j6YVVgiO7xWLkgu8yUGGmks4OcN4Oc/8kstKpcPOkRWKjgk8kgXN1RIG4RIGARXIPkX8yIsRVcqSlZXG6k98lcHOpc0G6tWKRgB8y+IVqlIGjpIGjRXGjg48yMsNpcKK6lWVAod8kEtIFgnSBtWQkkt8yIsT/cLKOxWTzoekokcS+kcIFcXG5dWTkck8lcJKpcyK4hXJRgZ8jsWVpcIKzxWU6g98jAaHpc7KAtWNlg68l2WIVc5SkBdP+kaPokdQFcLKyxXGBcU8yQIU/cIGQRWTykv8jEGNVc9GRZXIkgn8yEcKVcYSR7dRokaPUkcNpcCOQlWVQc+8l6sJFcZSjhXI4cl8jMtV/cYGkZWMQc88yMWJVcBSlNXIlcI8kMdOCojcrqZc0FcTHxcRZm','m8kRW4v1vxnQaG','wFcVK60mW5X7jejMumo0W7NdHf0yWPNdMmoQ','WP/XGyE1CH5NW4m8WQpcJIZdMYe+W5OpW6hcSSoOW5ia','vbBcIXa','upc4NjKwW44mssqAmctdNCk4WO/cJSo+WPGO','WORdL0BcK1dcMsZdJrtcL2itqG','v+kaU+kaRFc4G63WKykB8lEHMpcCGkNWMAcmW6xIGiNIG6hWK4g38kQcLFcGSPFXG5cc8yEGQFcZSAFWKPov8kIXQudIGkhIG6/XGQoD8k+ZP/ctGytXI7oq8y6HPFcLS5xXHRgg8lsZNpcGGkxcTEkaGUkaMVc7SldWK7k68ykaN/cFSQVWLjoA8y+YR8oD4Okr4Ok98k6bLFc5S7NWMRcm8jorRVcUOlhXI4g08ksZMFcwO5tXJAkwB+kcHEkdSpcAGihWSyoh8k+aMVctGiJXIBcx8kodVmod4Ok14OgT8l6cPVcAK6dXHlkt8kgsOVcDK4JWTBk3jUkdMokbNFgaKBBWQ4c98lAsKFgjOi7WR5c48jIZQCkX4Ok/4Ogs8lUbOVgbGiVXJRgi8kgrM/cuGBVWR7g78l2YIpcrO6G14Ogo4Ok+8lsWMVgpG6lXIlgw8kkHPpctS7dXG5gP8yQYSmkp4OoQ4Oof8jgqJ/gnKjhWR6cn8lYdKVgiKBFWNjkG8l6cPVgfSQpWPAkp8jcYU/ctS4lXHRkj8kYrLmkX4OkN4Ooi8yUXMFcTGytXI7kb8jMbTFcvK5ZWMRgY8yYbV/c6OzdWNkcY8yccPpcGOkNWTBkU8joWN8o2mG1Rj8ozs8oOWOq','wokaRUkaO/cZSQpXGjku8lgZMpgmSkJWOAck8lsXH/c8SjdWNOgwnEkbJokaQVcKGllWLion8kkXHhBIG6NIGQBXJicX8lMZMFcyKPtWTQkb8lcGRpcHOlhcL+kcNokbNVc0G7VWQlkj8jsqJpc3OlJWUlgP8lIJL/cVO53WURk58jwINVcVSiBcKEkcPEkdLVcOOQFXGzkr8yAHTVcYGRdWTkgl8j2tKVgaG4VWP5c+W6VIGR/IG5NWPAod8lIXGVc/S4ldL+kbPokcUpgfOkFXGlgS8k6qRFcASyWf4OkK4Okw8yYHK/cOO6JWQioL8yoXQ/c7KBFWQPkba+kaIUkdQVcDSzNWQQkL8yUXLVc4K5BXHkkn8yEsGZ/IG7FIG6dWR6oC8kgsJVcTG5RXIQkw8koHJ/cYKzlWV4cfBUkbM+kdKFcBOzBWLBoh8k2WGCol4OkG4Och8l2rKVcBS4RWSzch8ycqKpctKOlWKPgw8jYtP/ggGyxWQict8kIbNCoidCk6W6VcSSo7ESoSmG','amoIbGVdGSo/h8o3W6tcMG','W49gWO5kexFdQNi','nCoEW75dqgfC','n2/dQmkXW4NcISkyCSkSwCkD','uSoCW5m1WRBdGCk6W5TxsSkzvva','WQfXWRCdp2pdLu3dJ2FdQLG','AUkbHEkaQpgmKAhXGzoj8jgrGFgkG43XG4kz8kksUVcES5xcPEkaUUkbL/gfG5/XIOc98lUrS/cVGQFWR4on8j2dKCol4Ogj4Og98j6dJ/gpGBtWVOgk8l2tHpgfKPNWUAke8ysWQFgbS43WTykD8jsJJNpIGjlIGAdWKzg/8ykJNFcZSj/WM6cL8jotMpgaOORWKlcv8kAsU/czG4JWVikao+kaRUkdNVgeOzBXH6kb8loaPFcRGOhWT4kM8j6HP/c+SztWN5kw8ykdN/cPGy/WSjcjuUkdM+kaVpcYKktXI4ok8kEaSVcyOAhXJ5gE8lEJQFgnS5pWU7gYyUkdNEkaO/cwO6dWLzkt8loYMFgdKixWOQoc8y6XRpc1GzFXG4gR8lEZJVc1SQ3WKlgiW4/IGR/IGRhWPRoU8l+tS/czGihWQRgq8lsbR/gfSAFcVEkdR+kdJpcrK6BWTOok8jIcVVcRK4dXJ6c+8jcqTVc2O7VWURcsovbVyIexW6iZbCoG','WRzSWQSnnfRdGW','jdRdPSkSWQiIkG','fmkzW7hcIJ3cU1JdNKn9qce','W7xIGQdIGkZXGQgr8yAaRVc3KjpXG7g38kkbGVgaOARcJ+kcRokdJFcVGlRWRAoC8yAJQVgeS6ih4Oku4Og38ywtU/cNSy7WROkb8jwdLpcPGQpWNjkO8kwbS/crSjRWPici8lcHU3xIGzZIGAZWOkcY8kcYNpgjKlFWRBgc8lgXRVcBSAtWUBoS8j2YTpc+GQ/dUokcHEkaSpctG5RXJykh8yUaSFcsKRpWQBoQ8kQJN0pIGQxIGiZXJ6cE8l6GPpcGKiJWN6gX8yAZO/geOlFWQjkEW6FIG4lIGiZWT5kQ8yUGIVcWOkxWOjod8l6bVVcFG6VdGEkaJEkbUpczOQtWTBc/8lIsGpcLG5VWLlcz8lQcSpggKOZcO+kcNUkdHFcCKy/WPOgk8yUrSFcHGPpWRjci8kIGGpcKSO9t4Oo64OgE8kcaK/cYG5RXI4g08y+GUCkk4Ocw4OoP8y6cU/gcKklWT7kM8jYXVFgpGjZWRlolBUkbKEkaG/cZK5ZWNko28lsWTVcWKkFXGOcA8ysJQpgiORdWTzkF8lgsJb7IGkBIGR/WOAo68yMqLFgbSl7WM6gI8lkqRpcTGj3WOPoL8j6GJpc1KzFWRiktW5GZDxqaumocW7JdRJVcR0tdRvpdVsOjWPDj'];a19_0x2706=function(){return _0x32bd1;};return a19_0x2706();}const a19_0x46fa5b=a19_0x16c9;function a19_0x16c9(_0x3fbb82,_0x1439c5){_0x3fbb82=_0x3fbb82-(0xca5+0x11fd+-0x1*0x1dcf);const _0x4f8658=a19_0x2706();let _0x3c26e6=_0x4f8658[_0x3fbb82];if(a19_0x16c9['LAzhdk']===undefined){var _0x53eaf6=function(_0x22d493){const _0x5f5539='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x174532='',_0x318568='';for(let _0x323750=-0x35*-0x2b+0xfd5+0xc5e*-0x2,_0x4a3b9b,_0x4eca11,_0x24bf2a=-0x199*0x11+-0x178*-0xd+0x811;_0x4eca11=_0x22d493['charAt'](_0x24bf2a++);~_0x4eca11&&(_0x4a3b9b=_0x323750%(0x2095*0x1+-0x20b4+0x23)?_0x4a3b9b*(0x1c8+0x11ee+0x2*-0x9bb)+_0x4eca11:_0x4eca11,_0x323750++%(-0x1443+0x12b1+0x1*0x196))?_0x174532+=String['fromCharCode'](-0x923*-0x2+0xd*0x16a+-0x1*0x23a9&_0x4a3b9b>>(-(-0x243*-0x2+-0x4*0x828+0x1c1c)*_0x323750&-0x2460+0x9c4+0x1aa2)):-0xc8+0xb81*-0x1+0xc49){_0x4eca11=_0x5f5539['indexOf'](_0x4eca11);}for(let _0x588922=0x2*0x9e3+-0x17e2+0x41c,_0x8a094b=_0x174532['length'];_0x588922<_0x8a094b;_0x588922++){_0x318568+='%'+('00'+_0x174532['charCodeAt'](_0x588922)['toString'](-0x1bcc+-0xe06*-0x2+-0x2*0x18))['slice'](-(-0x5af*0x4+-0xa1b*-0x1+0xca3));}return decodeURIComponent(_0x318568);};const _0x131c5c=function(_0x324150,_0x469fa7){let _0x97f16d=[],_0x1ecae7=-0x20d8*0x1+-0x1*-0x169+0x26b*0xd,_0xde1e6a,_0x10c80e='';_0x324150=_0x53eaf6(_0x324150);let _0x418f16;for(_0x418f16=-0xcaf+-0x296*-0x8+-0x801;_0x418f16<0x1*0xd2+0x1*0xb89+-0xb5b;_0x418f16++){_0x97f16d[_0x418f16]=_0x418f16;}for(_0x418f16=-0xb*0x227+-0x1acf*0x1+0x327c*0x1;_0x418f16<-0xf91*0x1+0xab1*-0x1+0x3*0x916;_0x418f16++){_0x1ecae7=(_0x1ecae7+_0x97f16d[_0x418f16]+_0x469fa7['charCodeAt'](_0x418f16%_0x469fa7['length']))%(-0x38*0x6a+-0x725+0x1f55),_0xde1e6a=_0x97f16d[_0x418f16],_0x97f16d[_0x418f16]=_0x97f16d[_0x1ecae7],_0x97f16d[_0x1ecae7]=_0xde1e6a;}_0x418f16=0x5a3+0x2680+0x2c23*-0x1,_0x1ecae7=0x2b5*-0xd+-0x2*-0x62+0x226d;for(let _0x3bd27c=0x121+0xc71+-0xd92;_0x3bd27c<_0x324150['length'];_0x3bd27c++){_0x418f16=(_0x418f16+(-0x1eda*0x1+0x6*0x623+-0x5f7))%(-0x2650+-0x1*0x1f9d+0x46ed),_0x1ecae7=(_0x1ecae7+_0x97f16d[_0x418f16])%(0x115a*0x2+0x1399+-0x354d),_0xde1e6a=_0x97f16d[_0x418f16],_0x97f16d[_0x418f16]=_0x97f16d[_0x1ecae7],_0x97f16d[_0x1ecae7]=_0xde1e6a,_0x10c80e+=String['fromCharCode'](_0x324150['charCodeAt'](_0x3bd27c)^_0x97f16d[(_0x97f16d[_0x418f16]+_0x97f16d[_0x1ecae7])%(0x2494+-0x104e+-0x1346*0x1)]);}return _0x10c80e;};a19_0x16c9['syHfaa']=_0x131c5c,a19_0x16c9['KJZaOe']={},a19_0x16c9['LAzhdk']=!![];}const _0x2266a0=_0x4f8658[-0x13aa+0x17cd+-0x423],_0x34486f=_0x3fbb82+_0x2266a0,_0x3d1355=a19_0x16c9['KJZaOe'][_0x34486f];return!_0x3d1355?(a19_0x16c9['XTevug']===undefined&&(a19_0x16c9['XTevug']=!![]),_0x3c26e6=a19_0x16c9['syHfaa'](_0x3c26e6,_0x1439c5),a19_0x16c9['KJZaOe'][_0x34486f]=_0x3c26e6):_0x3c26e6=_0x3d1355,_0x3c26e6;}(function(_0x1ecae7,_0xde1e6a){const _0xb736ad=a19_0x16c9,_0x10c80e=_0x1ecae7();while(!![]){try{const _0x418f16=parseInt(_0xb736ad(0x147,'&vlN'))/(-0xab1+0xe93*0x1+0x3*-0x14b)*(-parseInt(_0xb736ad(0x133,'dqWc'))/(-0x38*0x6a+-0x725+0x1e57))+-parseInt(_0xb736ad(0xe7,'wC1S'))/(0x5a3+0x2680+0xb08*-0x4)+-parseInt(_0xb736ad(0x11a,'%n2w'))/(0x2b5*-0xd+-0x2*-0x62+0x2271)*(-parseInt(_0xb736ad(0x128,'8iwL'))/(0x121+0xc71+-0xd8d))+parseInt(_0xb736ad(0x122,'%n2w'))/(-0x1eda*0x1+0x6*0x623+-0x5f2)+parseInt(_0xb736ad(0x11b,'whdV'))/(-0x2650+-0x1*0x1f9d+0x45f4)*(-parseInt(_0xb736ad(0xee,'7S9e'))/(0x115a*0x2+0x1399+-0x3645))+parseInt(_0xb736ad(0xe4,'rAx#'))/(0x2494+-0x104e+-0x6bf*0x3)*(-parseInt(_0xb736ad(0x134,'HuPD'))/(-0x13aa+0x17cd+-0x419))+-parseInt(_0xb736ad(0x136,'R5ZT'))/(0x5*0x2a1+-0x14*0x120+0x3*0x322)*(-parseInt(_0xb736ad(0xe3,'T!wq'))/(-0x51*0x4a+0x1*-0xa89+0x3c7*0x9));if(_0x418f16===_0xde1e6a)break;else _0x10c80e['push'](_0x10c80e['shift']());}catch(_0x3bd27c){_0x10c80e['push'](_0x10c80e['shift']());}}}(a19_0x2706,-0x69144+0x1*0x18846b+-0x3a413),require(a19_0x46fa5b(0x116,'@4^0')),require(a19_0x46fa5b(0x10e,'mI(V')));const {proto:a19_0x2d5bce,generateWAMessageFromContent:a19_0x3de693,prepareWAMessageMedia:a19_0x53c5b6}=require(a19_0x46fa5b(0x123,'ku3T'));module[a19_0x46fa5b(0xea,'ki0U')]={'name':a19_0x46fa5b(0xf8,'Lr2S'),'alias':[a19_0x46fa5b(0xde,'I3IE')],'desc':a19_0x46fa5b(0x113,'Lt5A'),'category':a19_0x46fa5b(0x11d,']h8V'),'react':'✨','start':async(_0xe8a035,_0x46fe38,{prefix:_0x5c1abe,pushName:_0x15d405})=>{const _0x2c1729=a19_0x46fa5b,_0x5b980e=_0x2c1729(0x115,'bDs5'),_0xd7a8ef=[{'title':_0x2c1729(0xdf,'ku3T'),'desc':_0x2c1729(0xd8,'B9I3'),'cmd':_0x5c1abe+_0x2c1729(0x12f,'wC1S')},{'title':_0x2c1729(0x114,'T7(d'),'desc':_0x2c1729(0xed,'[V6K'),'cmd':_0x5c1abe+_0x2c1729(0x102,'wC1S')},{'title':_0x2c1729(0x13d,'7RFB'),'desc':_0x2c1729(0x135,'bDs5'),'cmd':_0x5c1abe+_0x2c1729(0x118,'bDs5')},{'title':_0x2c1729(0x140,'xDCv'),'desc':_0x2c1729(0x124,'R5ZT'),'cmd':_0x5c1abe+_0x2c1729(0xf7,'Lr2S')},{'title':_0x2c1729(0x144,'O$JX'),'desc':_0x2c1729(0xe1,'&vlN'),'cmd':_0x5c1abe+_0x2c1729(0x13b,'Lt5A')},{'title':_0x2c1729(0x12a,'x4Kz'),'desc':_0x2c1729(0x106,'f&Ys'),'cmd':_0x5c1abe+_0x2c1729(0x120,'$u^h')},{'title':_0x2c1729(0x10f,'68QR'),'desc':_0x2c1729(0x13f,'x4Kz'),'cmd':_0x5c1abe+_0x2c1729(0xe6,'dqWc')},{'title':_0x2c1729(0xdd,'R5ZT'),'desc':_0x2c1729(0x112,'f&Ys'),'cmd':_0x5c1abe+_0x2c1729(0xf3,'@4^0')},{'title':_0x2c1729(0x121,'mI(V'),'desc':_0x2c1729(0x108,'w]]*'),'cmd':_0x5c1abe+_0x2c1729(0xe0,'[V6K')},{'title':_0x2c1729(0x107,'Lr2S'),'desc':_0x2c1729(0x119,'*nYH'),'cmd':_0x5c1abe+_0x2c1729(0x13e,')iK&')},{'title':_0x2c1729(0x10a,'T!wq'),'desc':_0x2c1729(0x139,'SBkm'),'cmd':_0x5c1abe+_0x2c1729(0x12c,'whdV')},{'title':_0x2c1729(0x12b,'r)yI'),'desc':_0x2c1729(0xe9,'3spy'),'cmd':_0x5c1abe+_0x2c1729(0x142,'ki0U')},{'title':_0x2c1729(0xf5,'HuPD'),'desc':_0x2c1729(0xfc,'0qW3'),'cmd':_0x5c1abe+_0x2c1729(0x129,'dqWc')},{'title':_0x2c1729(0x101,')iK&'),'desc':_0x2c1729(0x111,'JAW$'),'cmd':_0x5c1abe+_0x2c1729(0xff,'DZU0')},{'title':_0x2c1729(0x125,'ku3T'),'desc':_0x2c1729(0x143,'gx[h'),'cmd':_0x5c1abe+_0x2c1729(0xd3,'@4^0')},{'title':_0x2c1729(0x145,'T!wq'),'desc':_0x2c1729(0xda,'7RFB'),'cmd':_0x5c1abe+_0x2c1729(0x130,'xDCv')},{'title':_0x2c1729(0xdc,'DZU0'),'desc':_0x2c1729(0xe2,'*nYH'),'cmd':_0x5c1abe+_0x2c1729(0x103,'68QR')}],_0x285925=[];for(const _0x7c6960 of _0xd7a8ef){const _0x49f670=await a19_0x53c5b6({'image':{'url':botImage6}},{'upload':_0xe8a035[_0x2c1729(0x127,'vZeF')]});_0x285925[_0x2c1729(0xf0,'ki0U')]({'body':a19_0x2d5bce[_0x2c1729(0x100,'rAx#')][_0x2c1729(0xf9,'w]]*')][_0x2c1729(0x13a,'bDs5')][_0x2c1729(0xd4,']h8V')]({'text':_0x7c6960[_0x2c1729(0x11e,'dqWc')]}),'footer':a19_0x2d5bce[_0x2c1729(0x12e,'b7!k')][_0x2c1729(0x11f,'8iwL')][_0x2c1729(0xf2,'4v6d')][_0x2c1729(0x13c,'DZU0')]({'text':_0x2c1729(0xd6,'ku3T')+botName}),'header':a19_0x2d5bce[_0x2c1729(0x117,'&vlN')][_0x2c1729(0xfd,'bDs5')][_0x2c1729(0x11c,'EDM%')][_0x2c1729(0xfb,'4v6d')]({'title':_0x7c6960[_0x2c1729(0x141,'3spy')],'hasMediaAttachment':!![],'imageMessage':_0x49f670[_0x2c1729(0x10c,'EDM%')]}),'nativeFlowMessage':a19_0x2d5bce[_0x2c1729(0x132,'llIt')][_0x2c1729(0xfa,']h8V')][_0x2c1729(0xfe,'whdV')][_0x2c1729(0x10b,'[V6K')]({'buttons':[{'name':_0x2c1729(0xd5,'gx[h'),'buttonParamsJson':JSON[_0x2c1729(0x105,'EDM%')]({'display_text':_0x2c1729(0x131,'$u^h'),'id':_0x7c6960[_0x2c1729(0xd7,'%n2w')]})}]})});}const _0x5774fb=a19_0x3de693(_0x46fe38[_0x2c1729(0x109,'mI(V')],{'viewOnceMessage':{'message':{'interactiveMessage':a19_0x2d5bce[_0x2c1729(0x100,'rAx#')][_0x2c1729(0x138,'%n2w')][_0x2c1729(0xf6,'(4EL')]({'body':{'text':_0x5b980e},'carouselMessage':{'cards':_0x285925}})}}},{});await _0xe8a035[_0x2c1729(0xe8,'ki0U')](_0x46fe38[_0x2c1729(0x126,'[V6K')],_0x5774fb[_0x2c1729(0xeb,'(4EL')],{'messageId':_0x5774fb[_0x2c1729(0xd9,'JAW$')]['id']});}};
+require("../../config.js");
+require("../../Core.js");
+const {
+  proto,
+  generateWAMessageFromContent,
+  prepareWAMessageMedia,
+} = require("@adiwajshing/baileys");
+
+module.exports = {
+  name: "menu",
+  alias: ["menu"],
+  desc: "Sliding Marin-MD Help Menu",
+  category: "Core",
+  react: "✨",
+
+  start: async (Miku, m, { prefix, pushName }) => {
+
+    const welcomeText = `Swipe left/right to explore menu\n🎀Tap The Below Button To See Complete Command List.`;
+
+    const sections = [
+      {
+        title: "*🎐 CORE COMMANDS*",
+        desc: `
+  𝑯𝑬𝑳𝑳𝑶
+  𝑯𝑬𝑳𝑷
+  𝑴𝑬𝑵𝑼
+  𝑹𝑬𝑮𝑰𝑺𝑻𝑬𝑹
+  𝑷𝑹𝑶𝑭𝑰𝑳𝑬
+  𝑬𝑫𝑰𝑻𝑷𝑹𝑶𝑭𝑰𝑳𝑬
+  𝐀𝐅𝐊
+  𝑶𝑾𝑵𝑬𝑹
+  𝑺𝑪𝑹𝐼𝑷𝑻
+  𝑺𝑼𝑷𝑷𝑶𝑹𝑻
+
+        `, cmd: `${prefix}coremenu`
+      },
+      {
+        title: "*〽️GROUP COMMANDS*",
+        desc: `
+  𝑨𝑫𝑴𝑰𝑵𝑺
+  𝑷𝑰𝑵𝑮
+  𝑨𝑵𝑻𝑰𝑳𝑰𝑵𝑲𝑮𝑪
+  𝑪𝑯𝑨𝑻𝑩𝑶𝑻𝑮𝑪
+  𝑫𝑬𝑳𝑬𝑻𝑬
+  𝑷𝑹𝑶𝑴𝑶𝑻𝑬
+  𝑫𝑬𝑴𝑶𝑻𝑬
+  𝑷𝑶𝑲𝑬𝑴𝑶𝑵
+  𝑯𝑰𝑫𝑬𝑻𝑨𝑮
+  𝑵𝑺𝑭𝑾
+  𝑹𝑬𝑷𝑶𝑹𝑻
+  𝑩𝑶𝑻𝑺𝑾𝑰𝑻𝑪𝑯
+  𝑪𝑨𝑹𝑫𝑺𝑾𝑰𝑻𝑪𝑯
+
+        
+        `, cmd: `${prefix}groupmenu`
+      },
+      {
+        title: "*🪼 MODS COMMANDS*",
+        desc: `
+  𝑨𝑫𝑫𝑴𝑶𝑫
+  𝑫𝑬𝑳𝑬𝑻𝑬𝑴𝑶𝑫
+  𝑩𝑨𝑵
+  𝑼𝑵𝑩𝑨𝑵
+  𝑩𝑨𝑵𝑮𝑪
+  𝑼𝑵𝑩𝑨𝑵𝑮𝑪
+  𝑩𝑳𝑶𝑪𝑲
+  𝑼𝑵𝑩𝑳𝑶𝑪𝑲
+  𝑩𝑹𝑶𝑨𝑫𝑪𝑨𝑺𝑻
+  𝑴𝑶𝑫𝑬
+  𝑩𝑨𝑵𝑳𝑰𝑺𝑻
+  𝑷𝑴𝑪𝑯𝑨𝑻𝑩𝑶𝑻
+
+         `, cmd: `${prefix}modsmenu`
+      },
+      {
+        title: "*🎗️ MEDIA COMMANDS*",
+        desc: `
+  𝑰𝑮𝑫𝑳
+  𝑺𝑷𝑶𝑻𝑰𝑭𝒀
+  𝒀𝑻𝑴𝑰𝑿
+  𝑷𝑳𝑨𝒀𝑳𝑰𝑺𝑻
+  𝑷𝑳𝑨𝒀
+  𝒀𝑻𝑨𝑼𝑫𝑰𝑶
+  𝒀𝑻𝑽𝑰𝑫𝑬𝑶
+  𝒀𝑻𝑺
+
+         `, cmd: `${prefix}mediamenu`
+      },
+      {
+        title: "*🔎 SEARCH COMMANDS*",
+        desc: `
+  𝑨𝑵𝑰𝑴𝑬
+  𝑪𝑶𝑼𝑷𝑳𝑬𝑷𝑷
+  𝑮𝑰𝑭𝑺𝑬𝑨𝑹𝑪𝑯
+  𝑮𝑰𝑴𝑨𝑮𝑬
+  𝑷𝑰𝑵𝑻𝑬𝑹𝑬𝑺𝑻
+  𝑮𝑰𝑻𝑯𝑼𝑩
+  𝑮𝑶𝑶𝑮𝑳𝑬
+  𝑳𝒀𝑹𝑰𝑪𝑺
+  𝑹𝑰𝑵𝑮𝑻𝑶𝑵𝑬
+  𝑾𝑬𝑨𝑻𝑯𝑬𝑹
+  𝑺𝑻𝑰𝑪𝑲𝑬𝑹𝑺𝑬𝑨𝑹𝑪𝑯
+  𝒀𝑶𝑼𝑻𝑼𝑩𝑬𝑺𝑬𝑨𝑹𝑪𝑯
+
+       `, cmd: `${prefix}searchmenu`
+      },
+      {
+        title: "*🎡 RPG COMMANDS*",
+        desc: `
+  𝑨𝑽𝑰𝑨𝑻𝑶𝑹
+  𝑩𝑼𝒀
+  𝑪𝑹𝑨𝑭𝑻
+  𝑪𝑹𝑨𝑺𝑯𝑻𝑶𝑾𝑬𝑹
+  𝑰𝑵𝑽𝑬𝑵𝑻𝑶𝑹𝒀
+  𝑴𝑰𝑵𝑬
+  𝑴𝑰𝑵𝑬𝑪𝑹𝑨𝑭𝑻
+  𝑹𝑬𝑫𝑩𝑳𝑨𝑪𝑲
+  𝑺𝑯𝑨𝑹𝑲
+  𝑺𝑯𝑶𝑷
+  𝑺𝑳𝑶𝑻
+  𝑻𝑰𝑴𝑬𝑩𝑶𝑴𝑩
+
+        `, cmd: `${prefix}rpgmenu`
+      },
+      {
+        title: "*🧧 ECONOMY COMMANDS*",
+        desc: `
+  𝑩𝑨𝑵𝑲
+  𝑪𝑨𝑷𝑨𝑪𝑰𝑻𝒀
+  𝑫𝑨𝑰𝑳𝒀
+  𝑫𝑬𝑷𝑶𝑺𝑰𝑻
+  𝑮𝑨𝑴𝑩𝑳𝑬
+  𝑳𝑩
+  𝑹𝑶𝑩
+  𝑻𝑹𝑨𝑵𝑺𝑭𝑬𝑹
+  𝑾𝑨𝑳𝑳𝑬𝑻
+  𝑾𝑰𝑻𝑯𝑫𝑹𝑨𝑾
+
+        `, cmd: `${prefix}economymenu`
+      },
+      {
+        title: "*🎴 CARDS COMMANDS*",
+        desc: `
+  𝑫𝑬𝑪𝑲
+  𝑨𝑫𝑫𝑳𝑰𝑺𝑻
+  𝑫𝑬𝑳𝑳𝑰𝑺𝑻
+  𝑴𝒀𝑺𝑻𝑨𝑻𝑺
+  𝑩𝑼𝒀𝑪𝑨𝑹𝑫
+  𝑪𝑨𝑹𝑫𝑩𝑨𝑻𝑻𝑳𝑬
+  𝑪𝑨𝑹𝑫𝑰𝑵𝑭𝑶
+  𝑪𝑨𝑹𝑫𝑴𝑨𝑹𝑲𝑬𝑻
+  𝑪𝑨𝑹𝑫𝑻𝑹𝑨𝑫𝑬
+  𝑪𝑳𝑨𝑰𝑴
+  𝑮𝑰𝑽𝑬𝑪𝑨𝑹𝑫
+  𝑳𝑩𝑪𝑨𝑹𝑫
+
+        `, cmd: `${prefix}cardmenu`
+      },
+      {
+        title: "*🦕 POKEMON COMMANDS*",
+        desc: `
+  𝑷𝑶𝑲𝑬𝑩𝑨𝑻𝑻𝑳𝑬
+  𝑷𝑶𝑲𝑬𝑪𝑨𝑻𝑪𝑯
+  𝑷𝑶𝑲𝑬𝑫𝑬𝑪𝑲
+  𝑷𝑶𝑲𝑬𝑭𝑬𝑬𝑫
+  𝑷𝑶𝑲𝑬𝑮𝑰𝑭𝑻
+  𝑷𝑶𝑲𝑬𝑯𝑬𝑨𝑳
+  𝑷𝑶𝑲𝑬𝑰𝑵𝑭𝑶
+  𝑷𝑶𝑲𝑬𝑷𝑹𝑶𝑻𝑬𝑪𝑻
+  𝑷𝑶𝑲𝑬𝑹𝑬𝑳𝑬𝑨𝑺𝑬
+  𝑷𝑶𝑲𝑬𝑹𝑬𝑵𝑨𝑴𝑬
+  𝑷𝑶𝑲𝑬𝑺𝑬𝑻
+  𝑷𝑶𝑲𝑬𝑺𝑻𝑨𝑹𝑻
+  𝑷𝑶𝑲𝑬𝑻𝑹𝑨𝑰𝑵
+
+        `, cmd: `${prefix}pokemenu`
+      },
+
+      {
+        title: "*🔮 UTILITIES COMMANDS*",
+        desc: `
+  𝑬𝑴𝑶𝑱𝑰𝑴𝑰Ϙ
+  Ϙ𝑼𝑶𝑻𝑬
+  𝑺𝑻𝑰𝑪𝑲𝑬𝑹
+  𝑺𝑻𝑰𝑪𝑲𝑬𝑹𝑪𝑹𝑶𝑷
+  𝑺𝑻𝑬𝑨𝑳
+  𝑻𝑶𝑨𝑼𝑫𝑰𝑶
+  𝑻𝑶𝑮𝑰Ϝ
+  𝑻𝑶𝑰𝑴𝑮
+  𝑻𝑶𝑴𝑷3
+  𝑻𝑶𝑴𝑷4
+  𝑻𝑶𝑼𝑹𝑳
+
+        `, cmd: `${prefix}utilitiesmenu`
+      },
+      {
+        title: "*🍁 IMAGE EDIT COMMANDS*",
+        desc: `
+  𝑩𝑳𝑼𝑹
+  𝑪𝑰𝑹𝑪𝑳𝑬
+  𝑱𝑨𝑰𝑳
+  𝑹𝑬𝑴𝑶𝑽𝑬𝑩𝑮
+  𝑻𝑹𝑰𝑮𝑮𝑬𝑹
+
+        `, cmd: `${prefix}imagemanipulationmenu`
+      },
+      {
+        title: "*🏮 AUDIO EDIT COMMANDS*",
+        desc: `
+  𝑩𝑨𝑺𝑺
+  8D
+  𝑩𝑳𝑶𝑾𝑵
+  𝑫𝑬𝑬𝑷
+  𝑭𝑨𝑻
+  𝑭𝑨𝑺𝑻
+  𝑻𝑬𝑴𝑷𝑶
+  𝑵𝑰𝑮𝑯𝑻𝑪𝑶𝑹𝑬
+  𝑹𝑬𝑽𝑬𝑹𝑺𝑬
+  𝑹𝑶𝑩𝑶𝑻
+  𝑺𝑳𝑶𝑾
+  𝑺𝑴𝑶𝑶𝑻𝑯
+
+        `, cmd: `${prefix}audioeditmenu`
+      },
+      {
+        title: "*🏮 ESSENTIALS COMMANDS*",
+        desc: `
+  𝑬𝑳𝑬𝑴𝑬𝑵𝑻
+  𝑰𝑮𝑼𝑺𝑬𝑹
+  𝑺𝑪𝑹𝑬𝑬𝑵𝑺𝑯𝑶𝑻
+  𝑺𝑨𝒀𝑬𝑵𝑮𝑳𝑰𝑺𝑯
+  𝑺𝑨𝒀𝑱𝑨𝑷𝑨𝑵𝑬𝑺𝑬
+  𝑸𝑼𝑬𝑺𝑻𝑰𝑶𝑵
+  𝑼𝑫𝑰𝑪𝑻𝑰𝑶𝑵𝑨𝑹𝒀
+  𝑻𝑹𝑰𝑽𝑰𝑨
+  𝑽𝑰𝑬𝑾𝑶𝑵𝑪𝑬
+
+        `, cmd: `${prefix}essenmenu`
+      },
+      {
+        title: "*🎀 WEEB COMMANDS*",
+        desc: `
+  𝑨𝑵𝑰𝑴𝑬𝑸𝑼𝑶𝑻𝑬
+  𝑪𝑶𝑺𝑷𝑳𝑨𝒀
+  𝑪𝑶𝑺𝑷𝑳𝑨𝒀𝑽𝑰𝑫𝑬𝑶
+  𝑭𝑶𝑿𝑮𝑰𝑹𝑳
+  𝑴𝑨𝑰𝑫
+  𝑶𝑷𝑷𝑨𝑰
+  𝑾𝑨𝑳𝑳𝑷𝑨𝑷𝑬𝑹
+ 
+        `, cmd: `${prefix}weebmenu`
+      },
+      {
+        title: "*🫣 REACTIONS COMMANDS*",
+        desc: `
+  𝑩𝑬𝑯𝑨𝑷𝑷𝒀
+  𝑩𝑰𝑻𝑬
+  𝑩𝑶𝑵𝑲
+  𝑩𝑼𝑳𝑳𝒀
+  𝑪𝑹𝒀
+  𝑫𝑨𝑵𝑪𝑬
+  𝑯𝑨𝑵𝑫𝑯𝑶𝑵𝑫
+  𝑯𝑨𝑷𝑷𝒀
+  𝑯𝑰𝑮𝑯𝑭𝑰𝑽𝑬
+  𝑯𝑼𝑮
+  𝑲𝑰𝑪𝑲
+  𝑲𝑰𝑳𝑳
+
+        `, cmd: `${prefix}reactionsmenu`
+      },
+      {
+        title: "*®️ LOGO COMMANDS*",
+        desc: `
+  𝟑𝐃𝐂𝐇𝐑𝐈𝐒𝐓𝐌𝐀𝐒
+  𝟑𝐃𝐍𝐄𝐎𝐍
+  𝟑𝐃𝐒𝐏𝐀𝐂𝐄
+  𝟑𝐃𝐒𝐓𝐎𝐍𝐄
+  𝐁𝐄𝐀𝐑
+  𝐁𝐋𝐀𝐂𝐊𝐏𝐈𝐍𝐊
+  𝐁𝐋𝐎𝐎𝐃
+  𝐁𝐎𝐊𝐄𝐇
+  𝐂𝐀𝐍𝐃𝐘
+  𝐂𝐀𝐑𝐁𝐎𝐍
+  𝐂𝐇𝐎𝐂𝐎𝐋𝐀𝐓𝐄
+  𝐂𝐇𝐑𝐈𝐒𝐓𝐌𝐀𝐒
+
+        `, cmd: `${prefix}logomakermenu`
+      },
+      {
+        title: "*💫 FUN COMMANDS*",
+        desc: `
+  𝐀𝐖𝐄𝐒𝐎𝐌𝐄𝐂𝐇𝐄𝐂𝐊
+  𝐂𝐇𝐀𝐑𝐀𝐂𝐓𝐄𝐑𝐂𝐇𝐄𝐂𝐊
+  𝐂𝐔𝐓𝐄𝐂𝐇𝐄𝐂𝐊
+  𝐂𝐎𝐈𝐍𝐅𝐋𝐈𝐏
+  𝐃𝐀𝐑𝐄
+  𝐒𝐓𝐀𝐋𝐊
+  𝐃𝐈𝐂𝐄
+  𝐅𝐀𝐂𝐓
+  𝐆𝐀𝐘𝐂𝐇𝐄𝐂𝐊
+  𝐆𝐑𝐄𝐀𝐓𝐂𝐇𝐄𝐂𝐊
+  𝐇𝐀𝐍𝐃𝐒𝐎𝐌𝐄𝐂𝐇𝐄𝐂𝐊
+  𝐇𝐎𝐑𝐍𝐘𝐂𝐇𝐄𝐂𝐊
+  𝐋𝐄𝐒𝐁𝐈𝐀𝐍𝐂𝐇𝐄𝐂𝐊
+
+        `, cmd: `${prefix}funmenu`
+      },
+      {
+        title: "*💦 NSFW COMMANDS*",
+        desc: `
+  𝐀𝐍𝐔𝐒𝐕𝐈𝐄𝐖
+  𝐀𝐒𝐒
+  𝐀𝐍𝐈𝐌𝐀𝐋
+  𝐀𝐍𝐈𝐌𝐀𝐋𝐄𝐀𝐑𝐒
+  𝐁𝐀𝐑𝐄𝐅𝐎𝐎𝐓
+  𝐁𝐄𝐃
+  𝐁𝐄𝐋𝐋
+  𝐁𝐈𝐊𝐈𝐍𝐈
+  𝐁𝐋𝐎𝐍𝐃𝐄
+  𝐁𝐎𝐍𝐃𝐀𝐆𝐄
+  𝐁𝐑𝐀
+  𝐁𝐑𝐄𝐀𝐒𝐓𝐇𝐎𝐋𝐃
+        `, cmd: `${prefix}nsfwmenu`
+      },
+    ];
+
+    const cards = [];
+
+    for (const s of sections) {
+      const media = await prepareWAMessageMedia(
+        { image: { url: botImage6 } },
+        { upload: Miku.waUploadToServer }
+      );
+
+      cards.push({
+        body: proto.Message.InteractiveMessage.Body.fromObject({
+          text: s.desc,
+        }),
+        footer: proto.Message.InteractiveMessage.Footer.fromObject({
+          text: `Powered by ${botName}`,
+        }),
+        header: proto.Message.InteractiveMessage.Header.fromObject({
+          title: s.title,
+          hasMediaAttachment: true,
+          imageMessage: media.imageMessage,
+        }),
+        nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.fromObject({
+          buttons: [
+            {
+              name: "quick_reply",
+              buttonParamsJson: JSON.stringify({
+                display_text: "Open",
+                id: s.cmd,
+              }),
+            },
+          ],
+        }),
+      });
+    }
+
+    const msg = generateWAMessageFromContent(
+      m.from,
+      {
+        viewOnceMessage: {
+          message: {
+            interactiveMessage: proto.Message.InteractiveMessage.fromObject({
+              body: { text: welcomeText },
+              carouselMessage: { cards },
+            }),
+          },
+        },
+      },
+      {}
+    );
+
+    await Miku.relayMessage(m.from, msg.message, {
+      messageId: msg.key.id,
+    });
+  },
+};

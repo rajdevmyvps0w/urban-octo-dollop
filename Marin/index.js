@@ -5,7 +5,7 @@ require("./Core.js");
 const fs = require("fs");
 const path = require("path");
 const { join } = require("path");
-const readline = require("readline"); 
+const readline = require("readline"); // Input lene ke liye
 const { exec, spawn, execSync } = require("child_process");
 
 // --- 2. THIRD PARTY MODULES ---
@@ -40,6 +40,7 @@ const {
 } = require("@adiwajshing/baileys");
 
 // --- 4. INTERNAL MODULES ---
+const { startAutoSpawn } = require('./lib/autospawn.js');
 const { startPokeAutoSpawn } = require('./lib/pokeAutoSpawn.js');
 const {
     smsg,
@@ -117,19 +118,18 @@ let status;
 
 // --- 9. MAIN FUNCTION ---
 async function startMiku() {
-    // 1. Database Connect
-    await mongoose.connect(global.mongodb)
+    // 1. Database Connect (Sirf level/economy ke liye rakho, session ke liye nahi)
+    try {
+        await mongoose.connect(global.mongodb);
+        console.log("Connected to MongoDB for Database features.");
+    } catch (e) {
+        console.log("MongoDB Connection Error: ", e);
+    }
 
-    // 2. Auth Load (Ye MongoDB se data layega)
-    const {
-        getAuthFromDatabase
-    } = new Auth(global.sessionId)
-
-    const {
-        saveState,
-        state,
-        clearState,
-    } = await getAuthFromDatabase()
+    // 2. Auth Load (Ab ye Local Folder 'session' se load hoga)
+    const Auth = require('./Processes/Auth'); 
+    const authHandler = new Auth(global.sessionId);
+    const { state, saveState, clearState } = await authHandler.getAuthFromDatabase();
 
     console.log(color(figlet.textSync('Marin MD BOT', {
         font: 'Pagga',
@@ -139,20 +139,22 @@ async function startMiku() {
         whitespaceBreak: true
     }), 'yellow'))
 
-    console.log(color('\nHello, I am Sten-X, the main developer of this bot.\n\nThanks for using: Marin MD made by Sten-X.', 'aqua'))
+    console.log(color('\nHello, I am Sten-X, the main developer of this bot.\n\nThanks for using: Marin MD made by my Team Marin.', 'aqua'))
     console.log(color('\nYou can follow me on GitHub: Sten-X\n\n', 'aqua'))
 
-    // PAIRING LOGIC 
-  
+    // ============================================================
+    // 🔥 PAIRING LOGIC (MongoDB Compatible Fix) 🔥
+    // ============================================================
     let usePairingCode = false;
     let phoneNumber = "";
 
     // IMPORTANT: Hum check kar rahe hain ki kya 'state.creds.me' exist karta hai?
+    // Agar MongoDB mein session hai, to 'me' mein tumhara number hoga.
     const isSessionExists = state && state.creds && state.creds.me && state.creds.me.id;
 
     if (!isSessionExists) {
         // Session nahi mila, iska matlab naya login chahiye
-        console.log(chalk.yellow.bold("\n--- 🔒 LOGIN CONFIGURATION ---"));
+        console.log(chalk.yellow.bold("\n--- 🔒 NEW LOGIN DETECTED ---"));
         console.log(chalk.white("1. Scan QR Code"));
         console.log(chalk.white("2. Use Pairing Code"));
         
@@ -177,7 +179,8 @@ async function startMiku() {
         logger: pino({
             level: 'silent'
         }),
-        printQRInTerminal: !usePairingCode,
+        printQRInTerminal: !usePairingCode, // Pairing use kar rahe ho to QR mat dikhao
+        // Browser fix: Pairing code ke liye 'Ubuntu'/'Chrome' zaroori hai
         browser: usePairingCode ? ['Ubuntu', 'Chrome', '20.0.04'] : ['Marin MD', 'Safari', '1.0.0'],
         auth: state,
         version
@@ -187,7 +190,7 @@ async function startMiku() {
     if (usePairingCode && !isSessionExists) {
         setTimeout(async () => {
             try {
-                let code = await Miku.requestPairingCode(phoneNumber, 'STENX001');
+                let code = await Miku.requestPairingCode(phoneNumber);
                 code = code?.match(/.{1,4}/g)?.join("-") || code;
                 console.log(chalk.black.bgGreen(`\n YOUR PAIRING CODE: `), chalk.black.bgWhite(` ${code} `));
             } catch (err) {
@@ -196,7 +199,7 @@ async function startMiku() {
         }, 4000);
     }
     
-    const _sendMessage = Miku.sendMessage.bind(Miku)
+    // const _sendMessage = Miku.sendMessage.bind(Miku)
 
     // Miku.sendMessage = async (jid, msg, options = {}) => {
     //     try {
@@ -208,11 +211,11 @@ async function startMiku() {
     //         ) {
     //             msg.contextInfo = {
     //                 externalAdReply: {
-    //                     title: "Marin Kitagawa MD",
+    //                     title: "Marin-MD • Multi-Device Bot",
     //                     body: "Owner - Sten-X",
     //                     mediaType: 1,
-    //                     renderLargerThumbnail: false,
-    //                     thumbnailUrl: "https://images3.alphacoders.com/127/thumb-350-1271213.webp", 
+    //                     renderLargerThumbnail: true,
+    //                     thumbnailUrl: global.botImage6, 
     //                     sourceUrl: "https://github.com/Sten-X"
     //                 }
     //             }
@@ -224,6 +227,7 @@ async function startMiku() {
     //     return _sendMessage(jid, msg, options)
     // }
     
+    startAutoSpawn(Miku); 
     startPokeAutoSpawn(Miku)
     
     store.bind(Miku.ev)
